@@ -13,13 +13,13 @@ function Contact() {
         <div className="flex flex-wrap gap-2 items-center justify-center border-2 border-gray-400 rounded-full">
           {/* <!-- email --> */}
           <div className="flex items-center justify-center mt-4 ml-4 mb-4">
-            <img src="/ocfemia_portfolio_react/src/assets/img/email.png" className="h-10"/>
+            <img src="ocfemia_portfolio_react/src/assets/img/email.png" className="h-10"/>
             <a href="mailto:kbocfemia@gmail.com">kbocfemia@gmail.com</a>
           </div>
           
           {/* <!-- linkedin --> */}
           <div className="flex items-center justify-center mt-4 mr-4 mb-4">
-            <img src="/ocfemia_portfolio_react/src/assets/img/linkedin copy.png" className="h-8"/>
+            <img src="ocfemia_portfolio_react/src/assets/img/linkedin copy.png" className="h-8"/>
             <a href="https://www.linkedin.com/in/karl-brandon-ocfemia/">LinkedIn</a>
           </div>
         </div>

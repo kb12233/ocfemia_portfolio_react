@@ -3,7 +3,7 @@ import React from "react";
 function Profile() {
   // Function to open the resume PDF
   const openResume = () => {
-    window.open('/ocfemia_portfolio_react/src/assets/Ocfemia_Resume.pdf');
+    window.open('ocfemia_portfolio_react/src/assets/Ocfemia_Resume.pdf');
   };
 
   return (
@@ -12,7 +12,7 @@ function Profile() {
         
         {/* <!-- profile picture --> */}
         <div>
-          <img src="/ocfemia_portfolio_react/src/assets/img/Ocfemia_dp.jpg" className="rounded-full h-48 sm:h-56 md:h-72" alt=""/>
+          <img src="ocfemia_portfolio_react/src/assets/img/Ocfemia_dp.jpg" className="rounded-full h-48 sm:h-56 md:h-72" alt=""/>
         </div>
     
         {/* <!-- profile info --> */}
@@ -43,13 +43,13 @@ function Profile() {
           {/* <!-- socials --> */}
           <div id="socials-container" className="flex gap-3">
             <img
-              src="/ocfemia_portfolio_react/src/assets/img/linkedin copy.png"
+              src="ocfemia_portfolio_react/src/assets/img/linkedin copy.png"
               alt="My LinkedIn profile"
               className="h-8 cursor-pointer"
               onClick={() => window.location.href = 'https://www.linkedin.com/in/karl-brandon-ocfemia/'}
             />
             <img
-              src="/ocfemia_portfolio_react/src/assets/img/github.png"
+              src="ocfemia_portfolio_react/src/assets/img/github.png"
               alt="My Github profile"
               className="h-8 cursor-pointer"
               onClick={() => { window.location.href = 'https://github.com/kb12233'}}
