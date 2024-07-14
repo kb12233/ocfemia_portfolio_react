@@ -15,7 +15,7 @@ function Projects() {
           <ProjectCard 
             source="/ocfemia_portfolio_react/img/classy_code-sc.png"
             projectName="ClassyCode"
-            description="A Flutter desktop app that generates code from className diagram images."
+            description="A Flutter desktop app that generates code from class diagram images."
             link="https://github.com/kb12233/classy_code"
           />
 
