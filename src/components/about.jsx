@@ -12,7 +12,7 @@ function About() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-2 px-10 xl:px-32">
           {/* <!-- profile picture --> */}
           <img
-              src="/src/assets/img/Ocfemia_dp2_bw.jpg"
+              src="/ocfemia_portfolio_react/src/assets/img/Ocfemia_dp2_bw.jpg"
               alt="Profile picture"
               className="h-44 sm:h-72 md:h-96 lg:h-96 rounded-2xl"
             />
@@ -22,7 +22,7 @@ function About() {
               {/* <!-- Skills --> */}
               <div className="flex flex-1 flex-col items-center justify-start border-2 border-gray-400 rounded-lg">
                 <img
-                  src="/src/assets/img/experience.png"
+                  src="/ocfemia_portfolio_react/src/assets/img/experience.png"
                   alt="Experience icon"
                   className="h-8"
                 />
@@ -41,7 +41,7 @@ function About() {
               {/* <!-- Education --> */}
               <div className="flex flex-1 flex-col items-center justify-start border-2 border-gray-400 rounded-lg">
                 <img
-                  src="/src/assets/img/education.png"
+                  src="/ocfemia_portfolio_react/src/assets/img/education.png"
                   alt="Education icon"
                   className="h-8"
                 />

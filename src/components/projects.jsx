@@ -13,21 +13,21 @@ function Projects() {
 
         <div id="card-container" className="flex flex-wrap items-center justify-center gap-4">
           <ProjectCard 
-            source="/src/assets/img/classy_code-sc.png"
+            source="/ocfemia_portfolio_react/src/assets/img/classy_code-sc.png"
             projectName="ClassyCode"
             description="A Flutter desktop app that generates code from className diagram images."
             link="https://github.com/kb12233/classy_code"
           />
 
           <ProjectCard 
-            source="/src/assets/img/RentEase.png"
+            source="/ocfemia_portfolio_react/src/assets/img/RentEase.png"
             projectName="RentEase"
             description="An AirBnB clone built with Flutter and Firebase."
             link="https://github.com/kb12233/rent_ease"
           />
 
           <ProjectCard 
-            source="/src/assets/img/code_sc_lg.png"
+            source="/ocfemia_portfolio_react/src/assets/img/code_sc_lg.png"
             projectName="CODE Interpreter"
             description="Interpreter written in Java for a programming language we call CODE."
             link="https://github.com/kb12233/code-interpreter"
