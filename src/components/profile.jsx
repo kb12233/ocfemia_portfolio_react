@@ -12,7 +12,7 @@ function Profile() {
         
         {/* <!-- profile picture --> */}
         <div>
-          <img src="src/assets/img/Ocfemia_dp.jpg" className="rounded-full h-48 sm:h-56 md:h-72" alt=""/>
+          <img src="/src/assets/img/Ocfemia_dp.jpg" className="rounded-full h-48 sm:h-56 md:h-72" alt=""/>
         </div>
     
         {/* <!-- profile info --> */}
@@ -28,7 +28,7 @@ function Profile() {
               className="flex items-center gap-2 font-semibold transition-all duration-300 ease-in-out py-1 px-2 sm:py-2 sm:px-4 text-sm sm:text-base rounded-full border border-custom_gray hover:bg-custom_gray hover:text-white"
               onClick={openResume}
             >
-              <img src="src/assets/img/download_icon.png" className="h-4" alt=""/>
+              <img src="/src/assets/img/download_icon.png" className="h-4" alt=""/>
               Resume
             </button>
 
@@ -43,13 +43,13 @@ function Profile() {
           {/* <!-- socials --> */}
           <div id="socials-container" className="flex gap-3">
             <img
-              src="src/assets/img/linkedin copy.png"
+              src="/src/assets/img/linkedin copy.png"
               alt="My LinkedIn profile"
               className="h-8 cursor-pointer"
               onClick={() => window.location.href = 'https://www.linkedin.com/in/karl-brandon-ocfemia/'}
             />
             <img
-              src="src/assets/img/github.png"
+              src="/src/assets/img/github.png"
               alt="My Github profile"
               className="h-8 cursor-pointer"
               onClick={() => { window.location.href = 'https://github.com/kb12233'}}
