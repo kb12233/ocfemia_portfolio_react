@@ -3,7 +3,7 @@ import React from "react";
 function Profile() {
   // Function to open the resume PDF
   const openResume = () => {
-    window.open('/ocfemia_portfolio_react/public/Ocfemia_Resume.pdf');
+    window.open('/ocfemia_portfolio_react/Ocfemia_Resume.pdf');
   };
 
   return (
