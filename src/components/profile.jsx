@@ -25,10 +25,10 @@ function Profile() {
           <div className="flex flex-wrap items-center justify-center gap-2">
             {/* <!-- download resume --> */}
             <button
-              className="flex items-center gap-2 font-semibold transition-all duration-300 ease-in-out py-1 px-2 sm:py-2 sm:px-4 text-sm sm:text-base rounded-full border border-custom_gray hover:bg-custom_gray hover:text-white"
+              className="group flex items-center gap-2 font-semibold transition-all duration-300 ease-in-out py-1 px-2 sm:py-2 sm:px-4 text-sm sm:text-base rounded-full border border-custom_gray hover:bg-custom_gray hover:text-white"
               onClick={openResume}
             >
-              <img src="/ocfemia_portfolio_react/img/download_icon.png" className="h-4" alt=""/>
+              <img src="/ocfemia_portfolio_react/img/download_icon.png" className="h-4 group-hover:invert transition-all duration-300 ease-in-out" alt=""/>
               Resume
             </button>
 
