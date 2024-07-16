@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact" className="flex mb-40 items-center justify-center">
+    <div id="contact" className="flex mb-56 items-center justify-center">
       {/* <!-- section title --> */}
       <section className=" ">
         <div className="flex flex-col items-center justify-center gap-2 mb-16">

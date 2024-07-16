@@ -7,7 +7,7 @@ function Profile() {
   };
 
   return (
-    <div id="profile" className="w-full flex items-center justify-center mt-44 mb-44">
+    <div id="profile" className="w-full flex items-center justify-center mt-60 mb-44">
       <section className="container flex flex-col md:flex-row items-center justify-center gap-20 w-full">
         
         {/* <!-- profile picture --> */}

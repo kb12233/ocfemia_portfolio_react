@@ -2,7 +2,7 @@ import React from "react";
 
 function BurgerMenu() {
   return (
-    <div className="dropdown dropdown-end md:hidden">
+    <div className="dropdown dropdown-end lg:hidden">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,10 @@ function BurgerMenu() {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content rounded-box bg-white z-[1] mt-3 w-52 p-2 shadow">
+          <li>
+            <a id="hamburger-option" href="#" className="hover:text-gray-400">Profile</a>
+          </li>
           <li>
             <a id="hamburger-option" href="#about" className="hover:text-gray-400">About</a>
           </li>

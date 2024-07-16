@@ -3,8 +3,9 @@ import React from "react";
 function About() {
   return (
     <div id="about" className="w-full flex items-center justify-center mt-72 mb-44">
-      <section id="about" className="container flex flex-col items-center justify-center gap-2 w-full">
+      <section className="container flex flex-col items-center justify-center gap-2 w-full">
         {/* <!-- section title --> */}
+        <div className='h-20'></div>
         <div className="flex flex-col items-center justify-center gap-2 mb-16">
           <p className="text-sm text-custom_gray2">Get To Know More</p>
           <h1 className="font-bold text-3xl">About Me</h1>

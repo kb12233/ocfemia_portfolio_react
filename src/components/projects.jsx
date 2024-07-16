@@ -3,9 +3,10 @@ import ProjectCard from "./project_card";
 
 function Projects() {
   return (
-    <div id="projects" className="mt-72 mb-44">
+    <div id="projects" className="mt-72 mb-56">
       <section>
         {/* <!-- section title --> */}
+        <div className='h-24'></div>
         <div className="flex flex-col items-center justify-center gap-2 mb-16">
           <p className="text-sm text-custom_gray2">Check Out My Recent</p>
           <h1 className="font-bold text-3xl">Projects</h1>
